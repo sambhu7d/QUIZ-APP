@@ -13,7 +13,7 @@ def install(package):
 
 while True:
     try:
-        modules = ['bs4', 'requests']
+        modules = ['html', 'requests']
         for module in modules:
             install(module)
         break
